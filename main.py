@@ -61,6 +61,8 @@ def encrypt(myList):
                 cipher += myList[secondIndex[0] +
                                  1 if secondIndex[0] < 4 else 0][secondIndex[1]]
             # for angle switching
+            cipher += myList[firstIndex[0]][secondIndex[1]]
+            cipher += myList[secondIndex[0]][firstIndex[1]]
 
     print(cipher)
 
