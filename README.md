@@ -21,4 +21,4 @@ Make sure you have Python 3.x installed on your system.
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/umar-bunu/hill-cipher-in-python
